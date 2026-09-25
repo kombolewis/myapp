@@ -2,12 +2,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
          version="2.5">
+
     <servlet>
-        <servlet-name>Hello</servlet-name>
-        <servlet-class>HelloWorld</servlet-class>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>coreservlets.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Hello</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/helloservlet</url-pattern>
     </servlet-mapping>
 </web-app>
