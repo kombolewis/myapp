@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "/home/kombo/Downloads/apache-tomcat-9/lib/servlet-api.jar",
+        "/home/kombo/Downloads/apache-tomcat-9/lib/jsp-api.jar"
+    ],
+    "java.project.sourcePaths": ["."],
+    "java.project.outputPath": "WEB-INF/classes"
+}
