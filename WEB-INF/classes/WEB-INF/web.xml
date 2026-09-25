@@ -11,4 +11,12 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/helloservlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>LotteryNumbers</servlet-name>
+        <servlet-class>coreservlets.LotteryNumbers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LotteryNumbers</servlet-name>
+        <url-pattern>/lotterynumbers</url-pattern>
+    </servlet-mapping>
 </web-app>
